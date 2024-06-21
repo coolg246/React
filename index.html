@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarvelBook - Responsive Social Media For Superhero </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconscout cdn added in the website -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+<body>
+    <!-- Creating the header menu having search bar -->
+    <nav>
+        <div class="container">
+            <!-- Creating the Logo -->
+            <h2 class="logo">
+                MarvelBook
+            </h2>
+            <!-- Creating the search bar -->
+            <div class="search-bar">
+                <!-- Adding the icon for search bar -->
+                <i class="uil uil-search"></i>
+                <!-- Taking Input in search bar ( of search type ) and adding placeholder -->
+                <input type="search" placeholder="Search for friends, posts or videos">
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="./images/profile-1.jpg">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <!-- LEFT SIDE -->
+            <div class="left-side">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./images/profile-1.jpg">
+                    </div>
+
+                    <div class="handle">
+                        <h4>Wonder Woman</h4>
+                        <p class="text-muted">@wonderwoman</p>
+                    </div>
+                </a>
+                <!-- SIDE BAR -->
+                <div class="side-bar">
+
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home-alt"></i></span><h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-search"></i></span><h3>Explore</h3>
+                    </a>
+
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notifications-count">9+</small></i></span><h3>Notifications</h3>
+                        <!-- Notification PopUp -->
+                        <div class="notification-popup">
+                            <div class="profile-picture">
+                                <img src="./images/profile-2.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Bat-Woman</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+
+                            <div class="profile-picture">
+                                <img src="./images/profile-3.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Harley-Quinn</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+
+                            <div class="profile-picture">
+                                <img src="./images/profile-4.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Green-Lantern</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+
+                            <div class="profile-picture">
+                                <img src="./images/profile-5.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Captain-Marvel</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+
+                            <div class="profile-picture">
+                                <img src="./images/profile-6.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Black-Canary</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+
+                            <div class="profile-picture">
+                                <img src="./images/profile-7.jpg">
+                            </div>
+                            <!-- Notification Body -->
+                            <div class="notification-body">
+                                <b>Bumble-Bee</b> accepted your friend request
+                                <small class="text-muted">2 days ago</small>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="menu-item" id="messages-notification">
+                        <span><i class="uil uil-envelope-edit"><small class="notifications-count">6+</small></i></span><h3>Messages</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-analytics"></i></span><h3>Analytics</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-swatchbook"></i></span><h3>Theme</h3>
+                    </a>
+
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                    </a>
+
+                </div>
+
+                <!-- End of Side-Bar , Create Post Button -->
+                <div class="create-post">
+                    <label class="btn btn-primary" for="create-post">Create Post</label>
+                </div>
+            </div>
+            <!-- MIDDLE SIDE -->
+            <div class="middle-side">
+                <!-- Stories With Profile Picture -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-1.jpg">
+                        </div>
+                        <p class="name">Wonder Woman</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <p class="name">Black-Canary</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-3.jpg">
+                        </div>
+                        <p class="name">Bat-Woman</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-4.jpg">
+                        </div>
+                        <p class="name">Hippolyta</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-5.jpg">
+                        </div>
+                        <p class="name">Harley-Quinn</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./images/profile-6.jpg">
+                        </div>
+                        <p class="name">Green-Lantern</p>
+                    </div>
+                </div>
+                <!-- End of Stories -->
+                <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="./images/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="What's Today News Diana ?">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-- Feeds -->
+
+                <div class="feeds">
+                    <!-- Feed - 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-1.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Black-Canary</h3>
+                                    <small>Metrobay, 20 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="pictures">
+                            <img src="./images/feed-1.jpg">
+                        </div>
+                        
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-9.jpg"></span>
+                            <span><img src="./images/profile-8.jpg"></span>
+                            <p>Liked by <b>Wonder Woman</b> and <b>Green-Lantern</b> and 2,333 Others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Black-Canary</b>Lorem ipsum dolor, sit amet<br>
+                                <span class="harsh-tag">#Superhero #Marvel #Amazon</span>
+                            </p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            <p>View all 1,333 comments</p>
+                        </div>
+                    </div>
+
+                    <!-- Feed - 2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-2.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Black-Canary</h3>
+                                    <small>Metrobay, 20 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="pictures">
+                            <img src="./images/feed-2.jpg">
+                        </div>
+                        
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-9.jpg"></span>
+                            <span><img src="./images/profile-8.jpg"></span>
+                            <p>Liked by <b>Wonder Woman</b> and <b>Green-Lantern</b> and 2,333 Others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Black-Canary</b>Lorem ipsum dolor, sit amet<br>
+                                <span class="harsh-tag">#Superhero #Marvel #Amazon</span>
+                            </p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            <p>View all 1,333 comments</p>
+                        </div>
+                    </div>
+
+                    <!-- Feed - 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-3.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Black-Canary</h3>
+                                    <small>Metrobay, 20 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="pictures">
+                            <img src="./images/feed-3.jpg">
+                        </div>
+                        
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-9.jpg"></span>
+                            <span><img src="./images/profile-8.jpg"></span>
+                            <p>Liked by <b>Wonder Woman</b> and <b>Green-Lantern</b> and 2,333 Others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Black-Canary</b>Lorem ipsum dolor, sit amet<br>
+                                <span class="harsh-tag">#Superhero #Marvel #Amazon</span>
+                            </p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            <p>View all 1,333 comments</p>
+                        </div>
+                    </div>
+
+                    <!-- Feed - 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./images/profile-4.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Black-Canary</h3>
+                                    <small>Metrobay, 20 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="pictures">
+                            <img src="./images/feed-4.jpg">
+                        </div>
+                        
+                        <div class="action-button">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-9.jpg"></span>
+                            <span><img src="./images/profile-8.jpg"></span>
+                            <p>Liked by <b>Wonder Woman</b> and <b>Green-Lantern</b> and 2,333 Others</p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Black-Canary</b>Lorem ipsum dolor, sit amet<br>
+                                <span class="harsh-tag">#Superhero #Marvel #Amazon</span>
+                            </p>
+                        </div>
+
+                        <div class="comments text-muted">
+                            <p>View all 1,333 comments</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- RIGHT SIDE -->
+            <div class="right-side">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search" id="message-search">
+                    </div>
+                    <!-- Messages Category -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-1.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Green-Lantern</h5>
+                            <p class="text-muted">Just Killed The Zombies!!</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-2.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Bat-Woman</h5>
+                            <p class="text-bold">Just Done My Exercise</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./images/profile-3.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Esper</h5>
+                            <p class="text-bold">Just Found An Intruder</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Friend Request -->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./images/profile-2.jpg">
+                            </div>
+                            <div>
+                                <h5>Black-Canary</h5>
+                                <p class="text-muted">8 mutual friend</p>
+                                <div class="action">
+                                    <button class="btn btn-primary">Accept</button>
+                                    <button class="btn">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
